@@ -11,7 +11,7 @@ def home_page():
 def math_operation():
     if (request.method=='POST'):
         operation=request.form['operation']
-        num1= int(request.form['num1'])
+        num1 = int(request.form['num1'])
         num2 =int(request.form['num2'])
         if(operation=='add'):
             r=num1+num2
